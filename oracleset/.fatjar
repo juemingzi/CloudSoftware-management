@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sat Aug 08 17:32:40 CST 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=oracleset_fat2015080801.jar
+manifest.mergeall=true
+manifest.mainclass=test.oracleset
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
