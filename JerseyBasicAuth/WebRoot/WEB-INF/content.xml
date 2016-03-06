@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true" crossContext="true">
+ <!-- Default set of monitored resources -->
+ <WatchedResource>WEB-INF/web.xml</WatchedResource>
+ <!-- Uncomment this to disable session persistence across Tomcat restarts -->
+ <!--
+  <Manager pathname="" />
+ -->
+ <Resource 
+ 	name="jdbc/cloudhost" 
+	auth="Container"
+ 	type="javax.sql.DataSource"
+ 	driverClassName="com.mysql.jdbc.Driver"
+ 	url="jdbc:mysql://localhost:3306/cloudhost"
+ 	username="root"
+ 	password="123456"
+ 	maxActive="20"
+ 	maxIdle="10"
+ 	maxWait="-1"/>
+</Context>
